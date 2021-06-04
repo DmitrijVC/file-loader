@@ -3,6 +3,12 @@ Rust library for storing encrypted files at compile time in the binary.
 
 `Reading`, `writing` and `saving to the drive` for these files is allowed, but of course any changes in the memory won't be saved after process termination.
 
+## Usage
+```toml
+[dependencies.file-loader]
+git = "https://github.com/DmitrijVC/file-loader"
+```
+
 ## Example
 ```rust
 #[macro_use] extern crate file_loader as fl;
